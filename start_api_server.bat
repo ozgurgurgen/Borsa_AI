@@ -1,7 +1,8 @@
 @echo off
+chcp 65001 >nul
 title AI-FTB API Sunucusu
 echo ========================================
-echo AI-FTB API Sunucusu Başlatılıyor...
+echo AI-FTB API Sunucusu Baslatiliyor...
 echo ========================================
 echo.
 
@@ -14,14 +15,14 @@ call .venv\Scripts\activate.bat
 echo.
 
 echo Flask kontrol ediliyor...
-python -c "import flask; print('✅ Flask yüklü')" 2>nul || (
-    echo ❌ Flask yüklü değil, yükleniyor...
+python -c "import flask; print('✅ Flask yuklu')" 2>nul || (
+    echo ❌ Flask yuklu degil, yukleniyor...
     pip install flask flask-cors
 )
 echo.
 
 echo ========================================
-echo 🚀 API Sunucusu başlatılıyor...
+echo 🚀 API Sunucusu baslatiliyor...
 echo 📡 URL: http://localhost:8000
 echo 🔗 Health: http://localhost:8000/api/health
 echo ========================================
