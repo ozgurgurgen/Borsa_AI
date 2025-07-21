@@ -1,0 +1,61 @@
+# AI-FTB (AI-Powered Financial Trading Bot) Requirements
+# Python 3.9+ gerektirir
+
+# Veri Analizi ve İşleme
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Makine Öğrenimi
+scikit-learn>=1.1.0
+joblib>=1.2.0
+
+# Finansal Veri
+yfinance>=0.2.0
+
+# Doğal Dil İşleme
+textblob>=0.17.0
+nltk>=3.8
+
+# Web İstekleri
+requests>=2.28.0
+
+# Flask API Serveri (Flutter uygulaması için)
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Loglama ve Dosya İşlemleri (Python built-in, ek paket gerekmez)
+# logging
+# json
+# os
+# datetime
+
+# Opsiyonel: Gelişmiş Analiz ve Görselleştirme
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Opsiyonel: Jupyter Notebook desteği
+jupyter>=1.0.0
+ipykernel>=6.16.0
+
+# Opsiyonel: API ve Web Framework (gelecekteki geliştirmeler için)
+flask>=2.2.0
+fastapi>=0.85.0
+uvicorn>=0.18.0
+
+# Opsiyonel: Veritabanı (gelecekteki geliştirmeler için)
+sqlite3  # Python built-in
+sqlalchemy>=1.4.0
+
+# Opsiyonel: Konfigürasyon
+python-dotenv>=0.20.0
+
+# Test Dependencies
+pytest>=7.2.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+coverage>=7.0.0
+
+# Test ve Kod Kalitesi
+pytest>=7.1.0
+flake8>=5.0.0
+black>=22.8.0

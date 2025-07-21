@@ -1,0 +1,82 @@
+name: ai_ftb_mobile
+description: AI-FTB (AI Destekli Finansal Ticaret Botu) Mobil Arayüzü
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI ve Material Design
+  cupertino_icons: ^1.0.2
+  material_icons_named: ^1.0.0
+  
+  # HTTP istekleri için
+  http: ^1.1.0
+  dio: ^5.3.2
+  
+  # State Management
+  provider: ^6.0.5
+  riverpod: ^2.4.9
+  flutter_riverpod: ^2.4.9
+  
+  # Grafik ve Çizelgeler
+  fl_chart: ^0.65.0
+  syncfusion_flutter_charts: ^27.2.5
+  
+  # JSON ve Veri İşleme
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  
+  # Yerel Depolama
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Tarih ve Saat
+  intl: ^0.18.1
+  
+  # WebSocket bağlantıları
+  web_socket_channel: ^2.4.0
+  
+  # Animasyonlar
+  lottie: ^2.7.0
+  
+  # Dosya işlemleri
+  path_provider: ^2.1.1
+  
+  # Güvenlik
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Kod üretimi
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+  freezed: ^2.4.6
+  
+  # Lint kuralları
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+  
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
